@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ashion Template">
+    <meta name="keywords" content="Ashion, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lọc Xanh | Sản Phẩm</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__logo">
+            <a href="index.html"><img src="../img/logo.png" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-lg-2">
+                    <div class="header__logo">
+                        <a href="index.html"><img src="../img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <nav class="header__menu">
+                        <ul>
+                            <li><a href="index.html">TRANG CHỦ</a></li>
+                            <li><a href="introduction.html">GIỚI THIỆU</a></li>
+                            <li class="active"><a href="shop.html">SẢN PHẨM</a></li>
+                            <li><a href="service.html">DỊCH VỤ</a></li>
+                            <li><a href="blog.html">TIN TỨC</a></li>
+                            <li><a href="contact.html">LIÊN HỆ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <div class="header__right">
+                        <div class="header__right__auth">
+                            <a href="../../../../../../LTW/src/main/webapp/assets/admin/signin.html">Đăng nhập</a>
+                            <a href="../../../../../../LTW/src/main/webapp/assets/admin/signup.html">Đăng kí</a>
+                        </div>
+                        <ul class="header__right__widget">
+                            <li><a href="wish_lists.html"><span class="icon_heart_alt"></span>
+                                <div class="tip">2</div>
+                            </a></li>
+                            <li><a href="shop-cart.html"><span class="icon_bag_alt"></span>
+                                <div class="tip">2</div>
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="canvas__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <!-- tìm kiếm -->
+        <div class="row justify-content-center">
+            <div class="col-md-7" style="margin-bottom: 20px;">
+              <form action="#" class="d-flex">
+                <input type="text" class="form-control search-input me-2" placeholder="Nhập tên sản phẩm bạn muốn tìm kiếm?">
+                <button type="submit" class="btn btn-danger search-btn">
+                  <span class="icon_search search-switch">
+                  </span>
+                </button>
+              </form>
+            </div>
+          </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Breadcrumb Begin -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="index.html"><i class="fa fa-home"></i>TRANG CHỦ</a>
+                        <span>SẢN PHẨM</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+    <div class="filter__item filter__item__page__detail">
+        <div class="row">
+            <div class="col-lg-4 col-md-5">
+                <div class="filter__sort ">
+                    <span>Sắp Xếp</span>
+                    <select>
+                        <option value="0">Mặc định</option>
+                        <option value="0">Giá từ cao tới thấp</option>
+                        <option value="0">Giá từ thấp đến cao</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shop Section Begin -->
+    <section class="shop spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="shop__sidebar">
+                        <div class="sidebar__categories">
+                            <div class="section-title">
+                                <h4>Phân Loại</h4>
+                            </div>
+                            <div class="categories__accordion">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="card">
+                                        <div class="card-heading active">
+                                            <a data-toggle="collapse" data-target="#collapseOne">Lọc nước RO</a>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li><a href="#" onclick="filterProducts('all', 'ro')">Tất cả</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Sunhouse','ro')">Sunhouse</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Toshiba','ro')">Toshiba</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Kangaroo','ro')">Kangaroo</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Karofi','ro')">Karofi</a></li>
+                                                </ul>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-heading">
+                                            <a data-toggle="collapse" data-target="#collapseTwo">Nóng - Nguội - Lạnh</a>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li><a href="#" onclick="filterProducts('all', 'nongNguoiLanh')">Tất cả</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Sunhouse', 'nongNguoiLanh')">Sunhouse</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Toshiba', 'nongNguoiLanh')">Toshiba</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Kangaroo', 'nongNguoiLanh')">Kangaroo</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Karofi', 'nongNguoiLanh')">Karofi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-heading">
+                                            <a data-toggle="collapse" data-target="#collapseThree">Âm tủ - Để bàn</a>
+                                        </div>
+                                        <div id="collapseThree" class="collapse" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li><a href="#" onclick="filterProducts('all', 'amBan')">Tất cả</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Sunhouse', 'amBan')">Sunhouse</a></li>
+                                                    <li><a href="#" onclick="filterProducts('ROBOT', 'amBan')">AOSmith</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Kangaroo', 'amBan')">Kangaroo</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Karofi', 'amBan')">Karofi</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-heading">
+                                            <a data-toggle="collapse" data-target="#collapseFour">Lọc điện giải ion kiềm</a>
+                                        </div>
+                                        <div id="collapseFour" class="collapse" data-parent="#accordionExample">
+                                            <div class="card-body">
+                                                <ul>
+                                                    <li><a href="#" onclick="filterProducts('all', 'ionKiem')">Tất cả</a></li>
+                                                    <li><a href="#" onclick="filterProducts('ROBOT', 'ionKiem')">ROBOT</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Kangen LeveLuk', 'ionKiem')">Kangen LeveLuk</a></li>
+                                                    <li><a href="#" onclick="filterProducts('Panasonic', 'ionKiem')">Panasonic</a></li>
+                                                    <li><a href="#" onclick="filterProducts('IonFarms', 'ionKiem')">IonFarms</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar__filter">
+                            <div class="section-title">
+                                <h4>Chọn mức giá phù hợp</h4>
+                            </div>
+                            <div class="filter-range-wrap">
+                                <div class="price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"
+                                data-min="0" data-max="50000000"></div>
+                                <div class="range-slider">
+                                    <div class="price-input">
+                                        <p>Giá:</p>
+                                        <input type="text" id="minamount">
+                                        <input type="text" id="maxamount" style="margin: -70px;">
+                                    </div>
+                                </div>
+                            </div>
+                            <button id="filter-price-btn">Lọc</button>
+                        </div>
+                        <div class="sidebar__sizes">
+                            <div class="section-title">
+                                <h4>Chế Độ Nước</h4>
+                            </div>
+                            <div class="size__list">
+                                <label>
+                                    <input type="checkbox" id="feature-hot" onchange="applyFilters()" />Nước nóng
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="feature-cold" onchange="applyFilters()" />Nước lạnh
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="feature-plain" onchange="applyFilters()" /> Nước thường
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="feature-warm" onchange="applyFilters()" /> Nước ấm
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="sidebar__color">
+                            <div class="section-title">
+                                <h4>Tiện Ích</h4>
+                            </div>
+                            <div class="size__list color__list">
+                                <label>
+                                    <input type="checkbox" id="feature-energy" onchange="applyFilters()" />Tiết kiệm điện
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="feature-lock" onchange="applyFilters()" /> Khóa an toàn nước nóng
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="feature-low" onchange="applyFilters()" />Chỉ báo mực nước thấp
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label>
+                                    <input type="checkbox" id="feature-temp"  onchange="applyFilters()" />Đèn báo nhiệt độ nước
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <div class="row product-row">
+                    </div>
+                </div>
+            </div>
+            <div class="product__pagination">
+                <a class="product__pagination__page2" href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fa fa-long-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Shop Section End -->
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-7">
+                    <div class="footer__about">
+                        <div class="footer__logo">
+                            <a href="index.html"><img src="../img/logo.png" alt=""></a>
+                        </div>
+                        <p>Mang đến nguồn nước sạch, thanh khiết từ thiên nhiên, bảo vệ sức khỏe và cuộc sống xanh cho gia đình bạn.</p>
+                    </div>
+                </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="footer__widget">
+                  <h6>Thông tin liên hệ</h6>
+                  <ul>
+                    <li><a><i class="fa fa-phone"></i>  0912 345 678</a></li>
+                    <li><a><i class="fa fa-envelope"></i>   locxanh@gmail.com</a></li>
+                    <li><a><i class="fa fa-home"></i>   Khu phố 6, P. Linh Trung, TP. Thủ Đức, TP. HCM</a></li>
+                    <li><a><i class="fa fa-clock-o"></i>   Làm việc từ 8h00 sáng - 22h tối  thứ 2 đến thứ 6 </a></li>
+                  </ul>
+                </div>
+              </div>
+               <div class="col-lg-4 col-md-8 col-sm-8">
+                    <div class="footer__newslatter">
+                        <h6>Theo dõi bảng tin của chúng tôi</h6>
+                        <form action="#">
+                            <input type="text" placeholder="Địa chỉ email của bạn...">
+                            <button type="submit" class="site-btn">Đăng kí</button>
+                        </form>
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/ly.1206"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright__text">
+                        <p>Bản quyền &copy; <script>document.write(new Date().getFullYear());</script> thuộc Nhóm 31 | Lập trình web thầy Phan Đình Long <i class="fa fa-heart" aria-hidden="true"></i> Khoa CNTT - ĐH Nông Lâm TP HCM </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollToTopBtn" title="Go to top"><a href="fa fa-angle-up"></a></button>
+    <!-- Footer Section End -->
+
+    <!-- Search Begin -->
+    <!-- <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div> -->
+    <!-- Search End -->
+
+    <!-- Js Plugins -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery-3.3.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/mixitup.min.js"></script>
+    <script src="../js/jquery.countdown.min.js"></script>
+    <script src="../js/jquery.slicknav.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/jquery.nicescroll.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
